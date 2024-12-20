@@ -105,6 +105,7 @@ class LinkedList {
                 }
                 tail = pre;
                 tail->next = nullptr;
+                delete temp;
                 length--;
             }
         } 
